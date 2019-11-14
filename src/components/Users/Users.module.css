@@ -1,0 +1,53 @@
+.users {
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr 1fr;
+    grid-template-columns: 2fr 5fr 2fr;
+    gap: 6px;
+    margin: 10px;
+
+}
+.name {
+    font-weight: 600;
+    color:  #004fa7;
+}
+
+.img {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 1;
+
+}
+
+.follow {
+    display: grid;
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 4;
+    grid-column-end: 3;
+    justify-content: center;
+    align-content: center;
+
+}
+.line {
+    display: grid;
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-row-end: 5;
+    grid-column-end: 4;
+    align-content: end;
+    border: none;
+    background-color: white;
+    height: 2px;
+}
+
+.photoUrl {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    box-shadow: 0 0 7px #666;
+}
+
+.selectedPage {
+    font-weight: bold;
+}
